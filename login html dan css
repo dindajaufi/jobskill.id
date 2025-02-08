@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Akun-Jobskill.id</title>
+    <link rel="stylesheet" href="{{ asset('css/login.css') }}">
+</head>
+<body>
+    <header class="navbar-container">
+        <div class="navbar">
+            <img src="{{ asset('img/logo.jpg') }}" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#">Beranda</a></li>
+                    <li><a href="#">Daftar Lowongan</a></li>
+                    <li><div class="btn-masuk"><a href="#">Daftar</a></div></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <div class="form-container">
+            <h1>Masuk</h1>
+            <form class="register-form">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Masukkan email..." required>
+                <label for="password">Kata Sandi:</label>
+                <input type="password" id="password" name="password" placeholder="Masukkan Kata sandi..." required>
+            <button type="submit" class="btn-dftar">Masuk</button>
+            </form>
+            <p class="login-link">Belum punya akun?<a href="#"> Daftar</a></p>
+        </div>
+        <img class="bg-coding" src="{{ asset('img/bgcoding.png') }}" alt="" >
+    </main>
+</body>
+</html>
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #FFFFFF;
+    color: #444444;
+    overflow: hidden;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bg-coding{
+    width: 800px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.navbar-container {
+    width: 100vw;
+    background-color: #93B2EB;
+    padding: 20px 20px;
+    position: relative;
+    top: 0;
+}
+
+.navbar{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 155px;
+}
+
+.bg-coding{
+    width: 1500px;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+
+.btn-masuk {
+    background-color: white;
+    padding: 5px 20px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px sol;
+}
+
+.btn-masuk > a {
+    color: #93B2EB;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: 50px 140px;
+    background: white;
+    padding: 2px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+}
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.btn-dftar {
+    background-color: #93B2EB;
+    color: white;
+    width: 422px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+}
+
+.btn-daftar:hover {
+    background-color: #93B2EB;
+}
+
+.login-link {
+    margin-top: 10px;
+    font-size: 1rem;
+}
