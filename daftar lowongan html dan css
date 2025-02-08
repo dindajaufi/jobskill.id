@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Lowongan-Jobskill.id</title>
+    <link rel="stylesheet" href="{{ asset('css/daftarlowongan.css') }}">
+</head>
+<body>
+    <header class="navbar-container">
+        <div class="navbar">
+            <img src="{{ asset('img/logo.jpg') }}" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#">Beranda</a></li>
+                    <li><a href="#">Daftar Lowongan</a></li>
+                    <li><a href="#" class="profile"><img src="{{ asset('img/profil.png') }}">
+                    <li><div class="btn-masuk"><a href="#">Keluar</a></div></li>
+                </ul>
+            </nav>
+    </header>
+            <main class="main-content">
+                <div class="search-bar">
+                    <input type="text" placeholder="Masukkan Kata Kunci...">
+                    <input type="text" placeholder="Lokasi">
+                    <input type="text" placeholder="Jurusan">
+                    <input type="text" placeholder="Jam kerja">
+                    <button>Cari</button>
+                </div>
+                
+                <h2>Cari Lowongan Kerja</h2>
+                <div class="job-container">
+                    <div class="job-card">
+                        <div class="job-header">
+                            <div class="job-logo">
+                                <img src="{{ asset('img/profilogo.png') }}">
+                            </div>
+                            <div class="job-info">
+                                <a href="#" class="company-name">PT. JAYA ABADI</a>
+                                <h4 class="job-title">Staff Administrasi</h4>
+                                <p class="job-location">Malang</p>
+                            </div>
+                        </div>
+                
+                        <div class="job-tags">
+                            <span class="tag">Perkantoran</span>
+                            <span class="tag">Full Time</span>
+                            <span class="tag">Staff Admin</span>
+                            <span class="tag">Kuota: 100</span>
+                        </div>
+                
+                        <div class="job-salary">
+                            Rp 1 - 2 Juta
+                        </div>
+                    </div>
+                
+                    <div class="job-card">
+                        <div class="job-header">
+                            <div class="job-logo">
+                                <img src="{{ asset('img/profilogo.png') }}">
+                            </div>
+                            <div class="job-info">
+                                <a href="#" class="company-name">PT. JAYA ABADI</a>
+                                <h4 class="job-title">Staff Administrasi</h4>
+                                <p class="job-location">Malang</p>
+                            </div>
+                        </div>
+                
+                        <div class="job-tags">
+                            <span class="tag">Perkantoran</span>
+                            <span class="tag">Full Time</span>
+                            <span class="tag">Staff Admin</span>
+                            <span class="tag">Kuota: 100</span>
+                        </div>
+                
+                        <div class="job-salary">
+                            Rp 1 - 2 Juta
+                        </div>
+                    </div>
+
+                    <div class="job-card">
+                        <div class="job-header">
+                            <div class="job-logo">
+                                <img src="{{ asset('img/profilogo.png') }}">
+                            </div>
+                            <div class="job-info">
+                                <a href="#" class="company-name">PT. JAYA ABADI</a>
+                                <h4 class="job-title">Staff Administrasi</h4>
+                                <p class="job-location">Malang</p>
+                            </div>
+                        </div>
+                
+                        <div class="job-tags">
+                            <span class="tag">Perkantoran</span>
+                            <span class="tag">Full Time</span>
+                            <span class="tag">Staff Admin</span>
+                            <span class="tag">Kuota: 100</span>
+                        </div>
+                
+                        <div class="job-salary">
+                            Rp 1 - 2 Juta
+                        </div>
+                    </div>
+
+                    <div class="job-card">
+                        <div class="job-header">
+                            <div class="job-logo">
+                                <img src="{{ asset('img/profilogo.png') }}">
+                            </div>
+                            <div class="job-info">
+                                <a href="#" class="company-name">PT. JAYA ABADI</a>
+                                <h4 class="job-title">Staff Administrasi</h4>
+                                <p class="job-location">Malang</p>
+                            </div>
+                        </div>
+                
+                        <div class="job-tags">
+                            <span class="tag">Perkantoran</span>
+                            <span class="tag">Full Time</span>
+                            <span class="tag">Staff Admin</span>
+                            <span class="tag">Kuota: 100</span>
+                        </div>
+                
+                        <div class="job-salary">
+                            Rp 1 - 2 Juta
+                        </div>
+                    </div>
+
+                    <div class="job-card">
+                        <div class="job-header">
+                            <div class="job-logo">
+                                <img src="{{ asset('img/profilogo.png') }}">
+                            </div>
+                            <div class="job-info">
+                                <a href="#" class="company-name">PT. JAYA ABADI</a>
+                                <h4 class="job-title">Staff Administrasi</h4>
+                                <p class="job-location">Malang</p>
+                            </div>
+                        </div>
+                
+                        <div class="job-tags">
+                            <span class="tag">Perkantoran</span>
+                            <span class="tag">Full Time</span>
+                            <span class="tag">Staff Admin</span>
+                            <span class="tag">Kuota: 100</span>
+                        </div>
+                
+                        <div class="job-salary">
+                            Rp 1 - 2 Juta
+                        </div>
+                    </div>
+
+                    <div class="job-card">
+                        <div class="job-header">
+                            <div class="job-logo">
+                                <img src="{{ asset('img/profilogo.png') }}">
+                            </div>
+                            <div class="job-info">
+                                <a href="#" class="company-name">PT. JAYA ABADI</a>
+                                <h4 class="job-title">Staff Administrasi</h4>
+                                <p class="job-location">Malang</p>
+                            </div>
+                        </div>
+                
+                        <div class="job-tags">
+                            <span class="tag">Perkantoran</span>
+                            <span class="tag">Full Time</span>
+                            <span class="tag">Staff Admin</span>
+                            <span class="tag">Kuota: 100</span>
+                        </div>
+                
+                        <div class="job-salary">
+                            Rp 1 - 2 Juta
+                        </div>
+                    </div>
+
+                    <div class="job-card">
+                        <div class="job-header">
+                            <div class="job-logo">
+                                <img src="{{ asset('img/profilogo.png') }}">
+                            </div>
+                            <div class="job-info">
+                                <a href="#" class="company-name">PT. JAYA ABADI</a>
+                                <h4 class="job-title">Staff Administrasi</h4>
+                                <p class="job-location">Malang</p>
+                            </div>
+                        </div>
+                
+                        <div class="job-tags">
+                            <span class="tag">Perkantoran</span>
+                            <span class="tag">Full Time</span>
+                            <span class="tag">Staff Admin</span>
+                            <span class="tag">Kuota: 100</span>
+                        </div>
+                
+                        <div class="job-salary">
+                            Rp 1 - 2 Juta
+                        </div>
+                    </div>
+
+                    <div class="job-card">
+                        <div class="job-header">
+                            <div class="job-logo">
+                                <img src="{{ asset('img/profilogo.png') }}">
+                            </div>
+                            <div class="job-info">
+                                <a href="#" class="company-name">PT. JAYA ABADI</a>
+                                <h4 class="job-title">Staff Administrasi</h4>
+                                <p class="job-location">Malang</p>
+                            </div>
+                        </div>
+                
+                        <div class="job-tags">
+                            <span class="tag">Perkantoran</span>
+                            <span class="tag">Full Time</span>
+                            <span class="tag">Staff Admin</span>
+                            <span class="tag">Kuota: 100</span>
+                        </div>
+                
+                        <div class="job-salary">
+                            Rp 1 - 2 Juta
+                        </div>
+                    </div>
+
+                    <div class="job-card">
+                        <div class="job-header">
+                            <div class="job-logo">
+                                <img src="{{ asset('img/profilogo.png') }}">
+                            </div>
+                            <div class="job-info">
+                                <a href="#" class="company-name">PT. JAYA ABADI</a>
+                                <h4 class="job-title">Staff Administrasi</h4>
+                                <p class="job-location">Malang</p>
+                            </div>
+                        </div>
+                
+                        <div class="job-tags">
+                            <span class="tag">Perkantoran</span>
+                            <span class="tag">Full Time</span>
+                            <span class="tag">Staff Admin</span>
+                            <span class="tag">Kuota: 100</span>
+                        </div>
+                
+                        <div class="job-salary">
+                            Rp 1 - 2 Juta
+                        </div>
+                    </div>
+                </div>
+                
+</body>
+</html>
+
+  body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #FFFFFF;
+    color: #444444;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-container {
+    width: 100vw;
+    background-color: #93B2EB;
+    padding: 20px 20px;
+    position: relative;
+    top: 0;
+}
+
+.navbar{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile img {
+    width: 40px;
+    height: 40px;
+}
+
+.logo {
+    width: 155px;
+}
+
+.main-content {
+    padding: 30px;
+}
+
+.search-bar {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr auto;
+    gap: 10px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #b2b1b1;
+    align-items: center;
+    width: 97%;
+}
+
+.search-bar input {
+    padding: 10px;
+    border: 1px solid #b2b1b1;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.search-bar button {
+    background-color: #4a90e2;
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+.search-bar button:hover {
+    background-color: #357ab7;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+
+.btn-masuk {
+    background-color: white;
+    padding: 5px 20px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px sol;
+}
+
+.btn-masuk > a {
+    color: #93B2EB;
+}
+
+.job-container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px;
+    padding: 3px;
+}
+
+.job-card {
+    background: white;
+    padding: 20px;
+    border: 1px solid #b2b1b1;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 397px;
+    font-family: Arial, sans-serif;
+}
+
+.job-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.job-logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #ddd;
+}
+
+.job-info {
+    margin-left: 10px;
+}
+
+.company-name {
+    color: #93B2EB;
+    text-decoration: none;
+}
+
+.job-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 5px 0;
+    color: #444444;
+}
+
+.job-location {
+    font-size: 1em;
+    margin-top: 1px;
+    color: #444444;
+}
+
+.job-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.tag {
+    background-color: rgba(74, 144, 226, 0.2);
+    color: #444444;
+    font-size: 0.90em;
+    padding: 5px 15px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.job-salary {
+    margin-top: 15px;
+    font-weight: bold;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #444;
+}
